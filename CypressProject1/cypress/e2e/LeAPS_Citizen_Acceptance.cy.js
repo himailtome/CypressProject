@@ -13,7 +13,7 @@ it('Signin', () => {
     cy.wait(5000)
     cy.get('.pt-4 > .flex').click()
     cy.wait(1000)
-    cy.reload();
+   // cy.reload();
     
 
 })
